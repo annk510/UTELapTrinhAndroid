@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment2">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:layout_weight="1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:isScrollContainer="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Ảnh 1"
+                android:textAlignment="center"
+                android:textColor="#03A9F4"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Ảnh 2"
+                android:textAlignment="center"
+                android:textColor="#03A9F4"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Ảnh 3"
+                android:textAlignment="center"
+                android:textColor="#03A9F4"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Ảnh 4"
+                android:textAlignment="center"
+                android:textColor="#03A9F4"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Ảnh 5"
+                android:textAlignment="center"
+                android:textColor="#03A9F4"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Ảnh 6"
+                android:textAlignment="center"
+                android:textColor="#03A9F4"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </TableRow>
+
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>
